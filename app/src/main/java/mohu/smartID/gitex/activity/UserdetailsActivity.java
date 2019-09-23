@@ -14,6 +14,8 @@ import mohu.smartID.gitex.presenters.UserProceedPresenter;
 import mohu.smartID.gitex.utils.Utils;
 
 
+// mayuri
+
 public class UserdetailsActivity extends BaseActivity implements UserProceedContract {
 ActivityRegisterBinding binding;
 UserProceedPresenter proceedPresenter;
