@@ -1,6 +1,6 @@
 package mohu.smartID.gitex.activity;
 
-//Mayuri Changes
+//Created By Mayuri
 
 import android.Manifest;
 import android.content.Context;
