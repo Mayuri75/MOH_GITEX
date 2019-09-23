@@ -1,5 +1,7 @@
 package mohu.smartID.gitex.activity;
 
+//Mayuri Changes
+
 import android.Manifest;
 import android.content.Context;
 import android.content.DialogInterface;
