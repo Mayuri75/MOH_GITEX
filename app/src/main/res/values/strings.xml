@@ -1,0 +1,606 @@
+<resources>
+    <string name="app_name" translatable="false">Hajj Smart ID</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="chatmessage">I am Sorry, I do not have the answer to that question, May i put you on the hold   </string>
+    <string name="opensans">OpenSans-Bold.ttf</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="google_api">AIzaSyCD2_EOa4dw4hRv7Z3P-rSBcQsYYhT7Hs4</string>
+    <string name="Connect">Connect</string>
+    <string name="emergency_call">To report to emergency services, call 911 or press SoS</string>
+    <string name="locate_def">Locate</string>
+    <string name="sos">SOS</string>
+    <string name="schedule">Schedule</string>
+    <string name="navigation">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="placeholder_em_user">Gregory Ramirez</string>
+    <string name="placeholder_user">Russel Lyons</string>
+    <string name="emergency_contact">Emergency Contact</string>
+
+    <string name="emergency_contact_name">Emergency Contact Name</string>
+    <string name="emergency_contact_email">Emergency Email</string>
+    <string name="role">Role</string>
+    <string name="hajj_id1">Hajj ID 1</string>
+    <string name="hajj_id2">Hajj ID 2</string>
+
+    <string name="camp_id">Camp ID</string>
+    <string name="camp_name">Camp Name</string>
+
+
+    <string name="hotel_name">Hotel Name</string>
+    <string name="hotel_room">Hotel Room</string>
+
+
+    <string name="visa_date">Visa Date</string>
+    <string name="visa_no">Visa No</string>
+    <string name="capture_incident">Capture pictures from your day</string>
+
+    <string name="chat_history">Chat History</string>
+    <string name="incident_history">Pictures History</string>
+    <string name="scan_history">Scan Pilgrim ID</string>
+    <string name="placeholder_unread">2</string>
+    <string name="placeholder_organisers">Organizers</string>
+    <string name="current_location">Current location</string>
+    <string name="placeholder_location">9520 Roghem key</string>
+    <string name="location_hint">Places or people</string>
+    <string name="placeholder_contacts">Contacts (6)</string>
+    <string name="placeholder_suggestion">Suggestion (5)</string>
+    <string name="locate">Locate</string>
+    <string name="add_to_favourite">Add to Favourite</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="logout">Logout</string>
+    <string name="enableSOS">Enable SOS</string>
+    <string name="my_qr_code">My Bar Code</string>
+    <string name="preferences">Preferences</string>
+
+    <string name="reportIncidents">Report Incidents</string>
+    <string name="reportingfor">Reporting for?</string>
+    <string name="Continue">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+
+    <string name="createIncidents">Create Incidents</string>
+    <string name="incidentsHistory">Pictures History</string>
+    <string name="type_message">Type message</string>
+    <string name="incident_created_for">Picture created for</string>
+    <string name="report_incident">Report Incident</string>
+
+    <string name="organizers">Organizers</string>
+    <string name="share">Share</string>
+    <string name="locate_all">Locate All</string>
+    <string name="my_Organizers">My Organizers</string>
+    <string name="hajj_health_profille">Health Profile</string>
+    <string name="notification">Notification</string>
+    <string name="clear_All">Clear All</string>
+    <string name="all">All</string>
+    <string name="alert">Alerts</string>
+    <string name="message">Message</string>
+    <string name="request">Request</string>
+
+    <string name="first_Name">First Name</string>
+    <string name="full_name">FIRST NAME</string>
+    <string name="full_name1">Full Name</string>
+    <string name="user_full_name">FIRST NAME *</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="email">Email</string>
+    <string name="company_name">Company Name</string>
+    <string name="contact">Contact</string>
+    <string name="doB">DoB</string>
+    <string name="country">Country</string>
+    <string name="add_Piligrims">Add Pilgrims</string>
+    <string name="pilgrims">Pilgrims</string>
+    <string name="passport_number">PASSPORT NUMBER</string>
+    <string name="establishment_id">ESTABLISHMENT</string>
+    <string name="user_establishment_id">ESTABLISHMENT *</string>
+    <string name="office_id">OFFICE ID</string>
+    <string name="office_id_user">OFFICE ID *</string>
+    <string name="confirm">Confirm</string>
+    <string name="go_back">Go back</string>
+    <string name="user_number">MOBILE NUMBER *</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="diabetes">Diabetes</string>
+    <string name="heart_desease">Heart Diseases</string>
+    <string name="date_of_birth">DATE OF BIRTH</string>
+    <string name="date_of_birth_user">DATE OF BIRTH *</string>
+    <string name="rescan_id">Want to rescan your ID?</string>
+    <string name="scan_again">Scan Again</string>
+    <string name="account_confirm">Account Confirmed</string>
+    <string name="label_done">We are almost done .</string>
+    <string name="confirm_detail">Can you confirm few details for us ?</string>
+    <string name="confirm_emergency">Confirm your emergency Contact.</string>
+    <string name="label_proceed">How do you like to proceed?</string>
+    <string name="scan_nfc">Scan NFC to Proceed</string>
+    <string name="label_or">or </string>
+    <string name="label_enter_boundryid">Please Enter Passport or Boundary ID </string>
+    <string name="nfc_detected">NFC detected!</string>
+    <string name="scan_barcode">Scan bar code </string>
+    <string name="use_nfc">Use NFC</string>
+    <string name="label_calcel_dialog">Cancel</string>
+    <string name="email_mobile">EMAIL/MOBILE</string>
+    <string name="label_password">PASSWORD</string>
+    <string name="label_login">Login</string>
+    <string name="nfc_success">Your smart phone is equiped with NFC to Scan the HajjID card.Would you like to proceed?</string>
+    <string name="nfc_success_dialog">Do you have Smart Hajj ID ?</string>
+    <string name="scan_nfc_label">Do you want to proceed with NFC or Bar code ? ?</string>
+    <string name="label_ok">Yes</string>
+    <string name="label_cancel">No</string>
+    <string name="label_gender">Gender</string>
+
+
+    <string name="language">Language</string>
+    <string name="share_My_Location">Share My Location</string>
+    <string name="Remove_from_contact">Remove from contact</string>
+    <string name="personal_Information">Personal Information</string>
+    <string name="health_Information">Health Information</string>
+    <string name="hajj_Information">Hajj Information</string>
+    <string name="officeNumbe">Office ID</string>
+    <string name="tagId">Tag ID</string>
+    <string name="tourCampNumber">Tag Number</string>
+    <string name="tourCampName">Tag Name</string>
+    <string name="hajjNumber">Hajj ID</string>
+    <string name="Bloodtype">Blood Group</string>
+    <string name="Suger">Diabetes</string>
+    <string name="HeartDiseases">Heart Diseases </string>
+    <string name="BloodPresure">Blood Presure</string>
+    <string name="gender">Gender</string>
+    <string name="Enter_Hajj_id">Enter Hajj ids</string>
+    <string name="Enter_Pilgrims">Enter Pilgrims ids</string>
+    <string name="Select_Day">Select Day</string>
+    <string name="OR">OR</string>
+    <string name="bus_Schedule">Bus Schedule</string>
+    <string name="train_Schedule">Train Schedule</string>
+    <string name="Events">Events</string>
+    <string name="Jamrat_bridge">Jamrat bridge</string>
+    <string name="Sent">Sent</string>
+    <string name="Select_Role">Select Role</string>
+    <string name="Team_Lead">Team Lead</string>
+    <string name="Hajj_id">HAJJ ID</string>
+    <string name="nationalit_label">Nationality</string>
+    <string name="user_nationalit_label">Nationality *</string>
+
+
+    <string name="Mutawiff">Mutawiff</string>
+    <string name="Murshid">Murshid</string>
+    <string name="HajjDetails">Hajj Details</string>
+    <string name="Health">Health Profile</string>
+    <string name="Volunteer">Volunteer</string>
+    <string name="Ok">Ok</string>
+    <string name="Scan_More">Scan More</string>
+    <string name="Restaurants">Restaurants</string>
+    <string name="Creating_for">Creating for</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="enter_emailId">Enter Email ID</string>
+    <string name="enter_emergency_contact">Enter Emergency Contact</string>
+    <string name="enetr_contact">Enter Contact Number</string>
+    <string name="invalid_passportno"> Invalid Hajj Number</string>
+
+
+    <string name="label_started">Get Started</string>
+    <string name="label_success">Your onboarding has been successfully completed</string>
+    <string name="label_prceed_id">Passport or boundary ID</string>
+
+    <string name="valid_max_tipamount">Maximum length should be 10</string>
+    <string name="profile_hajjid">Hajj Id</string>
+    <string name="profile_passport">Passport</string>
+    <string name="profile_officeid">OfficeId</string>
+    <string name="departing_at">Departing at</string>
+    <string name="please_enter_contact">Please enter your Contact</string>
+    <string name="please_enter_email">Please enter your email</string>
+    <string name="log_out">Log out</string>
+    <string name="log_out_popup">Are you sure you want to logout?</string>
+    <string name="path_and_gate">Path and Gate</string>
+    <string name="please_select_reason">Please select a reason to continue</string>
+    <string name="starting_at">Starting at</string>
+    <string name="stonin_day">Starting at</string>
+    <string name="take_survey">Take Survey</string>
+    <string name="plese_try_again">Technical Error, Please try again</string>
+    <string name="loading_data">Loading Data</string>
+    <string name="enter_firstname">Please Enter First Name</string>
+    <string name="enter_mobile">Please Enter Mobile Number</string>
+    <string name="enter_dob">Please Enter Date of Birth</string>
+    <string name="enter_hajjaid">Please enter Hajj ID</string>
+
+    <string name="accident">ACCIDENT</string>
+    <string name="lbl_conges">CONGESTION</string>
+    <string name="labl_medical">MEDICAL HELP</string>
+    <string name="lbl_lost">LOST AND FOUND</string>
+    <string name="lbl_missing">MISSING PERSON</string>
+    <string name="contact_removed">Contact has been removed</string>
+    <string name="already_added">Pilgrim already exists</string>
+    <string name="already_hajj">HAJJ ID is  already added</string>
+    <!-- XTIT: The title of the create Activity, will appear at the top of the screen -->
+    <string name="title_create_fragment">Create %1$s item</string>
+
+    <!-- XTIT: The title of the update Activity, will appear at the top of the screen -->
+    <string name="title_update_fragment">Update</string>
+
+    <!-- XMSG: Error message for the mandatory input fields, will appear in the edit field left empty -->
+    <string name="mandatory_warning">This is a mandatory field</string>
+
+    <!-- XTIT: The title of the welcome screen, will appear at the top of the screen -->
+    <string name="welcome_screen_headline_label">Welcome</string>
+
+    <!-- YINS: Short description on the welcome screen -->
+    <string name="welcome_screen_detail_label">Explore the SAP Cloud Platform SDK for Android with this generated app</string>
+
+    <!-- XFLD: label at the bottom of the welcome screen -->
+    <string name="welcome_screen_footnote_label">You can try out the SDK features in demo mode.</string>
+
+    <!-- XFLD: label of the primary button on the welcome screen -->
+    <string name="welcome_screen_primary_button_label">Get Started</string>
+
+    <!-- XBUT: Text of the Save button -->
+    <string name="save">Save</string>
+
+    <!-- XBUT: Text of the Update button -->
+    <string name="update">Update</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="delete">Delete</string>
+
+
+    <!-- XBUT: Text of the OK button -->
+    <string name="ok">OK</string>
+
+    <!-- XBUT: Text of the Delete button -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_dialog_title">DELETE</string>
+
+    <!-- XMSG: The message of the delete dialog -->
+    <string name="delete_one_item">Do you really want to delete the selected item?</string>
+
+    <!-- XMSG: The message of the delete dialog in case of multiple selection -->
+    <string name="delete_more_items">Do you really want to delete the selected items?</string>
+
+    <!-- XMSG: Error message, can be presented in a Toast or Dialog -->
+    <string name="entity_download_error">Error occurred during background operation.</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_refresh">Refresh</string>
+
+    <!-- XMIT: Refresh menu item -->
+    <string name="menu_home">Home</string>
+
+    <!-- XMIT: Update menu item -->
+    <string name="menu_update">Update</string>
+
+    <!-- XMIT: Delete menu item -->
+    <string name="menu_delete">Delete</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_headline">Headline</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_subheadline">Subheadline</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_body">Body text</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_footnote">Footnote</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag1">TAG1</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag2">TAG2</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_tag3">TAG3</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_description">Item description</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="object_header_status">Status</string>
+
+    <!-- NOTR: No translation needed, just placeholder text -->
+    <string name="error">Error</string>
+
+    <!-- error messages -->
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="read_failed">Download failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="format_error">"Input is not suitable for the data type"</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="read_failed_detail">Download operation failed, please try to restart the application.</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="create_failed">Create failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="create_failed_detail">Create operation failed, please try to execute it again later.</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="update_failed">Update failed</string>
+    <string name="update_failed_detail">Update operation failed, please refresh the local data and try to perform it again later.</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="delete_failed">Delete failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="delete_failed_detail">Delete operation failed, please refresh the local data and try to perform it again later.</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="log_upload_ok">Log is uploaded to the server.</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+    <string name="log_upload_failed">Log upload failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="log_upload_failed_detail">Mal-formed URL was received for log upload. The application might still work, but logs won\'t be uploaded to the server.</string>
+
+    <!-- XTIT: The message of the upload toast in case of success -->
+    <string name="usage_upload_ok">Usage is uploaded to the server</string>
+
+    <!-- XTIT: The message of the upload toast in case of failing -->
+    <string name="usage_upload_failed">Usage upload failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="usage_init_failed">Usage could not initialize</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="push_error">Push error</string>
+
+    <!-- XTIT: The title of the delete dialog -->
+    <string name="push_message">Push message received</string>
+
+    <!-- XTIT: The Notification Text -->
+    <string name="push_text">Notification</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_token_upload_failed_detail">Push token couldn\'t be uploaded to the SAP server, the push feature won\'t work. You won\'t receive push messages.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="push_invalid_push_format">Push message received, but its format was invalid, so it couldn\'t be processed.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="policy_download_failed">Policy download failed</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="policy_download_failed_details">Client policy download from the server failed, a default one will be used.</string>
+
+    <!-- XTIT: The title of an error dialog -->
+    <string name="configuration_invalid">Configuration Invalid</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="configuration_contained_malformed_url">Configuration contained malformed url: %s</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="secure_store_error">Secure store error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="secure_store_open_default_error_detail">Secure store with default passcode couldn\'t be opened.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="passcode_change_error">Passcode change error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail">Secure store passcode couldn\'t be changed. Application still works with the latest one.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="passcode_change_error_detail_default">Default passcode couldn\'t be set. Application still works with the latest user passcode.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="config_data_error_title">Failed to get configuration data from persistent store</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_bad_field_description">Failed to extract a requested data field.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_bad_service_url_description">The value for Service URL, \"%s\", is not a valid URL.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_build_json_description">Failed to build the JSON object.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_no_data_description">Configuration data was not present in the persistent store.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_reflection_exception">Use getInstance not reflection to instantiate this class.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="config_loader_complete_error_title">Failed to load configuration data</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_complete_error_description">Configuration loader failed to get configuration data.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="config_loader_on_error_title">Configuration Provider Error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_loader_on_error_description">Configuration provider, \"%s\", encountered an error. %s</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="config_data_corrupted_description">The previously saved data is corrupted and cannot be loaded.</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="server_auth_not_supported_saml">Error: This application doesn\'t support SAML authentication.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="bind_error">Bind error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="bind_error_detail">Failed to bind to Offline OData Sync Service.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="offline_provider_error">Offline initialization error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="offline_provider_error_detail">Failed to initialize offline OData provider.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="offline_initial_open_error">Offline initial open error</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="offline_initial_open_error_detail">Failed to complete initial opening of Offline store.</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="synchronize_failure">Synchronization Failure</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="synchronize_failure_detail">Synchronization with Mobile Services failed</string>
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="offline_reset_store_error">Offline store reset failure</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="offline_reset_store_error_detail">Failed to reset/remove offline data store.</string>
+    <!-- error messages -->
+
+    <!-- offline -->
+
+    <!-- XMSG: Advise user of delay when performing initial opening of offline store -->
+    <string name="initializing_offline_store">Initializing Offline Store. Please wait.</string>
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+    <string name="local_state">Local</string>
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+    <string name="error_state">Error</string>
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+    <string name="updated_state">Updated</string>
+
+    <!-- NOTR: No translation needed, Label for entity state in offline -->
+    <string name="download_state">Download</string>
+
+    <!-- XMIT: Menu item to trigger synchronization -->
+    <string name="synchronize_action">Synchronize</string>
+
+    <!-- offline -->
+
+    <!-- XTIT: The title of the settings dialog -->
+    <string name="settings_activity_name">Settings</string>
+    <!-- XTIT: The title of the settings menu -->
+    <string name="menu_item_settings">Settings</string>
+
+    <!-- XTIT: The title of the passcode group -->
+    <string name="passcode">Passcode</string>
+    <!-- XTIT: The title of the change passcode menu item -->
+    <string name="manage_passcode">Manage Passcode</string>
+    <!-- XTIT: The summary of the change passcode menu item -->
+    <string name="manage_passcode_summary">Set, change or remove the passcode.</string>
+    <!-- XTIT: The title of the reset app menu item -->
+    <string name="reset_app">Reset App</string>
+    <!-- XTIT: The summary of the reset app menu item -->
+    <string name="reset_app_summary">Reset Application</string>
+    <!-- XTIT: The title of a confirmation dialog -->
+    <string name="reset_app_confirmation">All information associated with this application will be removed. Do you wish to continue?</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="invalid_passcode">Invalid Passcode</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="passcode_error">Passcode error</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="failed_to_change_passcode">Failed to change passcode</string>
+    <!-- XTIT: The title of an error dialog -->
+    <string name="successful_passcode_change">The passcode is successfully changed</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="disabled_passcode">Default passcode couldn\'t unlock secure store when the passcode is disabled.</string>
+    <!-- XMSG: Detailed error description -->
+    <string name="invalid_passcode_detail">Provided passcode couldn\'t be used to create the secure store.</string>
+    <!-- XTIT: The title of an alert dialog for when the current passcode doesn't satisfy the new passcode policy, or the passcode has expired -->
+    <string name="new_passcode_required">New Passcode Required</string>
+    <!-- XMSG: The message of an alert dialog for when the current passcode doesn't satisfy the new passcode policy, or the passcode has expired -->
+    <string name="new_passcode_required_detail">The passcode has expired or the passcode policy has changed. You must set a new passcode.</string>
+    <!-- XTIT: The title of an alert dialog for when no passcode is set but the new policy requires one -->
+    <string name="passcode_required">Passcode Required</string>
+    <!-- XMSG: The message of an alert dialog for when no passcode is set but the new policy requires one -->
+    <string name="passcode_required_detail">The passcode policy has changed.  You must set a passcode.</string>
+    <!-- XTIT: The title of a dialog informing the user the passcode policy has changed and they need to take action -->
+    <string name="policy_changed">Policy Changed</string>
+    <!-- XMSG: The message of a dialog informing the user they can no longer use fingerprint to unlock the app because the new passcode policy doesn't allow it -->
+    <string name="fingerprint_no_longer_allowed">Using fingerprint to unlock this app has been disabled according to the new policy.  From now on you must enter a passcode instead.</string>
+    <!-- XTIT: The title of a dialog -->
+    <string name="max_retries_title">Too Many Attempts</string>
+    <!-- XMSG: The message of a dialog -->
+    <string name="max_retries_message">The maximum number of retries has been reached, the app will now reset.</string>
+
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_usage">Upload Usage</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="set_usage_consent">Set Usage Consent</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="usage_consent_granted">Usage accepted</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="usage_consent_denied">Usage not accepted</string>
+
+    <!-- XTIT: The title of a menu group -->
+    <string name="usage">Usage</string>
+    <!-- XTIT: The title of a menu group -->
+    <string name="logging">Logging</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="upload_log">Upload Log</string>
+    <!-- XTIT: The description of a menu item -->
+    <string name="upload_log_summary">Upload log to the server.</string>
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_changed">Default log level changed from the server policy to: %s</string>
+    <!-- XMSG: The message of a log level toast -->
+    <string name="log_level_default">Log policy is not set on the server, default log level is set to: %s</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="log_level">Log Level</string>
+    <!-- XTIT: The description of a menu item -->
+    <string name="log_level_summary">Set the log level. Current is: %s.</string>
+    <!-- XTIT: The title of a menu item -->
+    <string name="dialog_title_choose_log_level">Choose Log Level</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_none">None</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_fatal">Fatal</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_error">Error</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_warning">Warn</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_info">Info</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_debug">Debug</string>
+    <!-- XTIT: Log level title -->
+    <string name="log_level_path">Path</string>
+    <!-- XMSG: Authentication error message -->
+    <string name="authentication_failed">Authentication failed</string>
+
+    <!-- restrictions -->
+
+    <!-- XTIT: The title of the error dialog -->
+    <string name="restriction_service_url_title">Service URL</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="restriction_service_url_description">The URL of the OData service.</string>
+    <!-- restrictions -->
+
+    <!-- XBUT: Text of the Skip button on the Create Passcode Screen -->
+    <string name="skip_passcode">Skip</string>
+
+    <!-- XMSG: Detailed Usage data collection description -->
+    <string name="get_usage_permission_explanation">Detailed text about how data privacy pertains to this app and why it is important for the user to enable this functionality</string>
+    <!-- XTIT: The title of usage consent screen -->
+    <string name="get_usage_permission_title">Analytics Data Collection</string>
+    <!-- XBUT: Text of a button -->
+    <string name="usage_permission_allow">OK</string>
+    <!-- XBUT: Text of a button -->
+    <string name="usage_permission_deny">Not now</string>
+    <!-- XTIT: The header of usage consent screen -->
+    <string name="get_usage_permission_activity_name">App Usage Data Collection</string>
+
+    <!-- XBUT: Text of the Skip button on the Fingerprint Screen -->
+    <string name="skip_fingerprint">Skip fingerprint</string>
+    <!-- XBUT: button text giving the option to use a passcode (instead of a fingerprint) to unlock the app -->
+    <string name="use_passcode">Use passcode</string>
+
+    <!-- XMSG: Detailed error description -->
+    <string name="error_back_navigation">"The application is passcode protected, it won\'t start without providing the proper passcode."</string>
+
+</resources>

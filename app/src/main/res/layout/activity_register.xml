@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+        <variable
+            name="Validations"
+            type="mohu.smartID.gitex.models.Validations" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".activities.UserEmergencyContactActivity">
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/cv_approximaterate"
+            android:layout_alignParentTop="true"
+            android:fillViewport="true"
+            android:isScrollContainer="true">>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="@string/register"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:textAllCaps="true"
+                        android:text="@string/full_name1"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_guestname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi|actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="60"
+                        android:text="@{Validations.emergencyContactName}"
+                        android:singleLine="true"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="@string/company_name"
+                        android:textAllCaps="true"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_companyname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi|actionNext"
+                        android:inputType="text"
+                        android:maxLength="10"
+                        android:text="@{Validations.emergencyContactNumber}"
+                        android:singleLine="true"
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="@string/email_address"
+                        android:textAllCaps="true"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_emailAddress"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi|actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="60"
+                        android:singleLine="true"
+                        android:text="@{Validations.emergenyContactEmail}"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:visibility="visible" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:text="@string/mobile_number"
+                        android:textAllCaps="true"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_mobileno"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:imeOptions="flagNoExtractUi|actionNext"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:singleLine="true"
+                        android:text="@{Validations.emergenyContactEmail}"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/cv_approximaterate"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textAllCaps="false"
+android:onClick="onClickRegister"
+                android:background="@drawable/rounded_corner_accent_solid"
+                android:text="@string/confirm"
+                android:visibility="visible"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_below="@+id/btn_confirm"
+                android:gravity="center"
+
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+</layout>
